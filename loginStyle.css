@@ -1,0 +1,83 @@
+body {
+	color: #ffffff;
+	text-align: center;
+	background: url('images/backgrounds/loginBg.jpg') no-repeat;
+}
+
+h1 {
+	font-family: 'Open Sans';
+	font-weight: lighter;
+	font-size: 50px;
+	color: #ffffff;
+	margin: 0px;
+	margin-top: 2.5em;
+	margin-bottom: 0.5em;
+}
+
+.specialHeader {
+	margin-top: 1.5em;
+}
+
+.loginInput {
+	display: block;
+	width: 20%;
+	height: 40px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 10px auto;
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+
+.loginInput::-webkit-input-placeholder {
+    font-family: 'Open Sans';
+}
+
+.loginInput:-ms-input-placeholder {
+    font-family: 'Open Sans';
+}
+
+.loginInput:-moz-placeholder {
+    font-family: 'Open Sans';
+}
+
+.loginInput::-moz-placeholder {
+    font-family: 'Open Sans';
+}
+
+input[type=submit] {
+	margin: 20px;
+	padding: 10px 90px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	background: #00ffff;
+	border: 1px solid rgba(221, 255, 255, .5);
+	border-radius: 4px;
+}
+
+input[type=submit]:hover {
+	background: #ffff00;
+	transition: 1s;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	outline: 0;
+}
+
+.signUpForm p {
+	color: #ffffff;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+.terms:hover {
+	color: #0ff;
+	transition: 0.5s;
+}
+
+p {
+	font-family: 'Open Sans';
+}

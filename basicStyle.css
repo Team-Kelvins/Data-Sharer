@@ -1,0 +1,156 @@
+body {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Put all paragraphs here. */
+
+.bigTitle {
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+}
+
+.mediumTitle {
+	font-size: 30px;
+	margin: 0;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.smallTitle {
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+
+.description {
+
+}
+
+.copyright {
+	padding-top: 140px;
+}
+
+/* Put all divs/ area here */
+
+.navBar {
+	width: 100%;
+	background: rgba(0,0,0,0);
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.fullpage {
+	height: 1000px;
+	width: 100%;
+	margin: 0;
+}
+
+.fullpage.page1 {
+	background: #e0ffff;
+}
+
+.fullpage.page2 {
+	background: #f4eeff;
+}
+
+.fullpage.page3 {
+	background: #fff4e7;
+}
+
+/* Put list styles here. */
+
+nav ul {
+	width: 100%;
+	list-style: none;
+	margin-top: 0px;
+	padding: 0;
+
+}
+
+nav ul li {
+	display: inline;
+	/*background: #00ffff;*/
+	font-size: 24px;
+	width: 8%;
+	float: right;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+nav ul li:hover {
+}
+
+.subMenu {
+	position: absolute;
+	top: 100%;
+	width: 15%;
+	padding: 0;
+	display: none;
+}
+
+.subMenu li {
+	width: 100%;
+	display: block;
+	margin-left: 0;
+	margin-top: 0;
+	font-size: 15px;
+}
+
+.withDropDown:hover > ul {
+	display: block;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	padding-top: 0px;
+}
+
+.longLi {
+	width: 15%;
+}
+
+nav a{
+	border: 0;
+	text-decoration: none;
+	color: #000000;
+}
+
+a {
+	outline: none;
+}
+
+nav ul li button {
+	border-radius: 4px;
+	height: 40px;
+	border: 1px solid #000000;
+	font-family: "Open Sans";
+	background: rgba(0,0,0,0.1);
+	font-size: 25px;
+}
+
+nav ul li button:hover {
+	cursor: pointer;
+}
+
+footer {
+	height: 180px;
+	width: 100%;
+	text-align: center;
+}
