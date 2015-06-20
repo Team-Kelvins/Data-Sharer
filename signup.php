@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" type="text/css" href="loginStyle.css" />
+		<link rel="stylesheet" type="text/css" href="login.css" />
 		<title> Sign up account -- Data Bank </title>
 	</head>
 	<body>
 		<h1 class="specialHeader"> Sign up </h1>
 		<div>
-			<form method="POST" action="signUpPage.php" class="signUpForm">
+			<form method="POST" action="signup.php" class="signUpForm">
 				<p> Last Name </p>
 				<input type="text" placeholder="Smith" class="loginInput" name="lName" />
 				<p> First Name </p>

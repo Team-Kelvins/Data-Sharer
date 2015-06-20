@@ -3,7 +3,7 @@
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" type="text/css" href="loginStyle.css" />
+		<link rel="stylesheet" type="text/css" href="login.css" />
 		<title> User sign in -- Data Bank </title>
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 			<input type="password" placeholder="Password" class="loginInput" name="upassword" />
 			<input type="submit" value="Login" name="submitBtn" href="#"/>
 		</form>
-		<a href="passwordReset.html"> Forget password? </a>
+		<a href="reset.html"> Forget password? </a>
 	</body>
 </html>
 
@@ -42,7 +42,7 @@ if ($submit_btn) {
 		$result = mysql_query($query_str) or die (mysql_error());
 		$row = mysql_fetch_array($result, MYSQL_NUM);
 		if ($row[0] == $password_entered) {
-			echo "<script type=\"text/javascript\"> window.location.replace(\"http://www.datasharer.com/accountPage.html\"); </script>";
+			echo "<script type=\"text/javascript\"> window.location.replace(\"http://www.datasharer.com/account.html\"); </script>";
 		} else {
 			echo "<script type=\"text/javascript\"> alert(\"Incorrect password!\"); </script>";
 			// echo "<script type=\'text/javascript\'> alert(\'Wrong username/password combination!\'); </script>";
